@@ -1,44 +1,44 @@
 {
   "categorias": [
     {
-      "categoria": "Roupas",
+      "categoria": "Revista 20",
       "subcategorias": [
         {
-          "subcategoria": "Vestidos"
+          "subcategoria": "artigo 1"
         },
         {
-          "subcategoria": "Camisas"
+          "subcategoria": "artigo 2"
         },
         {
-          "subcategoria": "Calças"
+          "subcategoria": "artigo 3"
         }
       ]
     },
     {
-      "categoria": "Eletrônicos",
+      "categoria": "Revista 19",
       "subcategorias": [
         {
-          "subcategoria": "Celulares"
+          "subcategoria": "artigo 1"
         },
         {
-          "subcategoria": "Tablets"
+          "subcategoria": "artigo 2"
         },
         {
-          "subcategoria": "Computadores"
+          "subcategoria": "artigo 3"
         }
       ]
     },
     {
-      "categoria": "Móveis",
+      "categoria": "Revista 18",
       "subcategorias": [
         {
-          "subcategoria": "Cadeiras"
+          "subcategoria": "artigo 1"
         },
         {
-          "subcategoria": "Mesas"
+          "subcategoria": "artigo 2"
         },
         {
-          "subcategoria": "Armários"
+          "subcategoria": "artigo 3"
         }
       ]
     }
