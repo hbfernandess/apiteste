@@ -4,7 +4,8 @@
       "categoria": "Revista 20",
       "subcategorias": [
         {
-          "subcategoria": "artigo 1"
+          "subcategoria": "artigo 1",
+          "url": "http://www.aa.cm.br" 
         },
         {
           "subcategoria": "artigo 2"
