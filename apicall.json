@@ -1,0 +1,20 @@
+{
+    "categories": [
+        {
+            "name": "Revista 1",
+            "subcategories": [
+                {"name": "Revista 1 - Subcategoria 1"},
+                {"name": "Revista 1 - Subcategoria 2"},
+                {"name": "Revista 1 - Subcategoria 3"}
+            ]
+        },
+        {
+            "name": "Revista 2",
+            "subcategories": [
+                {"name": "Revista 2 - Subcategoria 1"},
+                {"name": "Revista 2 - Subcategoria 2"},
+                {"name": "Revista 2 - Subcategoria 3"}
+            ]
+        }
+    ]
+}
