@@ -8,10 +8,12 @@
           "url": "http://www.aa.cm.br" 
         },
         {
-          "subcategoria": "artigo 2"
+          "subcategoria": "artigo 2",
+          "url": "http://www.aa.cm.br" 
         },
         {
-          "subcategoria": "artigo 3"
+          "subcategoria": "artigo 3",
+          "url": "http://www.aa.cm.br" 
         }
       ]
     },
@@ -19,13 +21,16 @@
       "categoria": "Revista 19",
       "subcategorias": [
         {
-          "subcategoria": "artigo 1"
+          "subcategoria": "artigo 1",
+          "url": "http://www.aa.cm.br" 
         },
         {
-          "subcategoria": "artigo 2"
+          "subcategoria": "artigo 2",
+          "url": "http://www.aa.cm.br" 
         },
         {
-          "subcategoria": "artigo 3"
+          "subcategoria": "artigo 3",
+          "url": "http://www.aa.cm.br" 
         }
       ]
     },
@@ -33,13 +38,16 @@
       "categoria": "Revista 18",
       "subcategorias": [
         {
-          "subcategoria": "artigo 1"
+          "subcategoria": "artigo 1",
+          "url": "http://www.aa.cm.br" 
         },
         {
-          "subcategoria": "artigo 2"
+          "subcategoria": "artigo 2",
+          "url": "http://www.aa.cm.br" 
         },
         {
-          "subcategoria": "artigo 3"
+          "subcategoria": "artigo 3",
+          "url": "http://www.aa.cm.br" 
         }
       ]
     }
