@@ -87,28 +87,25 @@
         <p>Rodapé do site - Guia do Estudante</p>
     </div>
 
-    <!-- Scripts do Bootstrap e jQuery -->
+    <!-- Scripts do Bootstrap e JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('body').on('mousewheel DOMMouseScroll', function(e){
-                var delta = e.originalEvent.wheelDelta || -e.originalEvent.detail;
-                var scrollTop = $(window).scrollTop();
-                var height = $(window).height();
-                
-                if (delta < 0) {  // scrolling down
-                    $('html, body').stop().animate({
-                        scrollTop: scrollTop + height
-                    }, 500);
-                } else {  // scrolling up
-                    $('html, body').stop().animate({
-                        scrollTop: scrollTop - height
-                    }, 500);
+        document.addEventListener("wheel", function(event) {
+            var sections = document.querySelectorAll(".section");
+            var currentSection = Math.round(window.scrollY / window.innerHeight);
+            if (event.deltaY > 0) {
+                // Scroll down
+                if (currentSection < sections.length - 1) {
+                    sections[currentSection + 1].scrollIntoView({ behavior: "instant" });
                 }
-                return false;
-            });
+            } else {
+                // Scroll up
+                if (currentSection > 0) {
+                    sections[currentSection - 1].scrollIntoView({ behavior: "instant" });
+                }
+            }
         });
     </script>
 </body>
