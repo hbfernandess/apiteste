@@ -97,7 +97,7 @@
                 nextSectionIndex = Math.max(0, Math.min(nextSectionIndex, sections.length - 1));
                 sections[nextSectionIndex].scrollIntoView({ behavior: 'smooth' });
 
-                setTimeout(() => { isScrolling = false; }, 1000);
+                setTimeout(() => { isScrolling = false; }, 300);
             });
 
             let touchStartY = 0;
@@ -120,7 +120,7 @@
                 nextSectionIndex = Math.max(0, Math.min(nextSectionIndex, sections.length - 1));
                 sections[nextSectionIndex].scrollIntoView({ behavior: 'smooth' });
 
-                setTimeout(() => { isScrolling = false; }, 1000);
+                setTimeout(() => { isScrolling = false; }, 300);
             });
         });
     </script>
