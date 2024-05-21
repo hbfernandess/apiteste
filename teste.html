@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Guia do Estudante</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            padding: 60px 0;
+            min-height: 100vh;
+        }
+        .section:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Seção 1 -->
+    <div id="section1" class="section container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.jpg" class="img-fluid" alt="Imagem 1">
+            </div>
+            <div class="col-md-6">
+                <h1>Título da Seção 1</h1>
+                <p>Texto relacionado ao tema da Seção 1. Informações introdutórias e relevantes para os alunos iniciantes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção 2 -->
+    <div id="section2" class="section container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Título da Seção 2</h1>
+                <p>Texto relacionado ao tema da Seção 2. Informações adicionais e relevantes para os alunos.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.jpg" class="img-fluid" alt="Imagem 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção 3 -->
+    <div id="section3" class="section container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.jpg" class="img-fluid" alt="Imagem 3">
+            </div>
+            <div class="col-md-6">
+                <h1>Título da Seção 3</h1>
+                <p>Texto relacionado ao tema da Seção 3. Informações detalhadas sobre recursos e suporte disponíveis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção 4 -->
+    <div id="section4" class="section container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Título da Seção 4</h1>
+                <p>Texto relacionado ao tema da Seção 4. Informações finais e contato.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1280.jpg" class="img-fluid" alt="Imagem 4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <p>Rodapé do site - Guia do Estudante</p>
+    </div>
+
+    <!-- Scripts do Bootstrap e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('body').on('mousewheel DOMMouseScroll', function(e){
+                var delta = e.originalEvent.wheelDelta || -e.originalEvent.detail;
+                var scrollTop = $(window).scrollTop();
+                var height = $(window).height();
+                
+                if (delta < 0) {  // scrolling down
+                    $('html, body').stop().animate({
+                        scrollTop: scrollTop + height
+                    }, 500);
+                } else {  // scrolling up
+                    $('html, body').stop().animate({
+                        scrollTop: scrollTop - height
+                    }, 500);
+                }
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
